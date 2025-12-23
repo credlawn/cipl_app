@@ -31,6 +31,13 @@
     display: none !important;
 }
 
+/* Hide comment count and like icon in List View (keep last modified time) */
+.list-row-activity .comment-count,
+
+.list-row-activity .mx-2 {
+    display: none !important;
+}
+
 /* Form width - 90% on laptop/desktop screens only */
 @media (min-width: 1024px) {
 
