@@ -1,0 +1,57 @@
+/* Cipl App Custom Styles */
+
+/* Override Frappe's default primary button color to professional blue */
+.btn-primary {
+    background-color: #0066cc !important;
+    border-color: #0066cc !important;
+    background-image: none !important;
+}
+
+.btn-primary:hover {
+    background-color: #0052a3 !important;
+    border-color: #0052a3 !important;
+    background-image: none !important;
+    box-shadow: 0 2px 8px rgba(0, 102, 204, 0.3) !important;
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #004080 !important;
+    border-color: #004080 !important;
+    background-image: none !important;
+}
+
+/* Also update page primary action buttons */
+.page-head .btn-primary {
+    background-image: none !important;
+}
+
+/* Hide right sidebar */
+.layout-side-section.right {
+    display: none !important;
+}
+
+/* Form width - 90% on laptop/desktop screens only */
+@media (min-width: 1024px) {
+
+    /* Main form sections */
+    .section-body {
+        max-width: 90% !important;
+        width: 90% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    /* Comments and Activity section alignment */
+    .form-footer {
+        max-width: 90% !important;
+        width: 90% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    /* Activity items - use full width of footer */
+    .timeline-content {
+        max-width: 100% !important;
+    }
+}

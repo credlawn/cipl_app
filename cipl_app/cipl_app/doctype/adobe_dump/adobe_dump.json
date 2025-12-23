@@ -1,0 +1,363 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-12-22 23:01:35.874979",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "arn_no",
+  "customer_name",
+  "pin_code",
+  "lc1_code",
+  "variable_value",
+  "dropoff_reason",
+  "vkyc_expiry_date",
+  "product_code",
+  "current_stage",
+  "curable_flag",
+  "bkyc_reason",
+  "decline_descreption",
+  "sm_name",
+  "card_type",
+  "application_no",
+  "source_channel",
+  "final_dap_submission_date",
+  "vkyc_status",
+  "column_break_nfrr",
+  "creation_date",
+  "city",
+  "channel",
+  "lc2_code",
+  "ipa_status",
+  "idcom_status",
+  "capture_link",
+  "final_decision",
+  "decline_code",
+  "company_name",
+  "kyc_status",
+  "decline_type",
+  "uniqueduplicate",
+  "creation_date_time",
+  "ip_address",
+  "merged_defect_codes",
+  "kyc_completion_date",
+  "column_break_basj",
+  "customer_type",
+  "state",
+  "sm_code",
+  "lg_code",
+  "dap_final_flag",
+  "vkyc_consent_date",
+  "promo_code",
+  "final_decision_date",
+  "decline_description",
+  "bkyc_status",
+  "decision_month",
+  "product_des",
+  "kyc_successnr",
+  "card_activation_status",
+  "source_type",
+  "sales_branch_code",
+  "sm_remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "arn_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ARN No",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_nfrr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "creation_date",
+   "fieldtype": "Date",
+   "label": "Creation Date"
+  },
+  {
+   "fieldname": "column_break_basj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_type",
+   "fieldtype": "Data",
+   "label": "Customer Type"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "pin_code",
+   "fieldtype": "Data",
+   "label": "Pin Code"
+  },
+  {
+   "fieldname": "lc1_code",
+   "fieldtype": "Data",
+   "label": "LC1 Code"
+  },
+  {
+   "fieldname": "channel",
+   "fieldtype": "Data",
+   "label": "Channel"
+  },
+  {
+   "fieldname": "lc2_code",
+   "fieldtype": "Data",
+   "label": "LC2 Code"
+  },
+  {
+   "fieldname": "sm_code",
+   "fieldtype": "Data",
+   "label": "SM Code"
+  },
+  {
+   "fieldname": "lg_code",
+   "fieldtype": "Data",
+   "label": "LG Code"
+  },
+  {
+   "fieldname": "variable_value",
+   "fieldtype": "Data",
+   "label": "Variable Value"
+  },
+  {
+   "fieldname": "ipa_status",
+   "fieldtype": "Data",
+   "label": "IPA Status"
+  },
+  {
+   "fieldname": "dap_final_flag",
+   "fieldtype": "Data",
+   "label": "DAP Final Flag"
+  },
+  {
+   "fieldname": "dropoff_reason",
+   "fieldtype": "Data",
+   "label": "Dropoff Reason"
+  },
+  {
+   "fieldname": "idcom_status",
+   "fieldtype": "Data",
+   "label": "IDCOM Status"
+  },
+  {
+   "fieldname": "vkyc_consent_date",
+   "fieldtype": "Data",
+   "label": "VKYC Consent Date"
+  },
+  {
+   "fieldname": "vkyc_expiry_date",
+   "fieldtype": "Datetime",
+   "label": "VKYC Expiry Date"
+  },
+  {
+   "fieldname": "capture_link",
+   "fieldtype": "Data",
+   "label": "Capture Link"
+  },
+  {
+   "fieldname": "product_code",
+   "fieldtype": "Data",
+   "label": "Product Code"
+  },
+  {
+   "fieldname": "promo_code",
+   "fieldtype": "Data",
+   "label": "Promo Code"
+  },
+  {
+   "fieldname": "final_decision",
+   "fieldtype": "Data",
+   "label": "Final Decision"
+  },
+  {
+   "fieldname": "final_decision_date",
+   "fieldtype": "Date",
+   "label": "Final Decision Date"
+  },
+  {
+   "fieldname": "current_stage",
+   "fieldtype": "Data",
+   "label": "Current Stage"
+  },
+  {
+   "fieldname": "decline_code",
+   "fieldtype": "Data",
+   "label": "Decline Code"
+  },
+  {
+   "fieldname": "decline_description",
+   "fieldtype": "Data",
+   "label": "Decline Description"
+  },
+  {
+   "fieldname": "curable_flag",
+   "fieldtype": "Data",
+   "label": "Curable Flag"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "bkyc_status",
+   "fieldtype": "Data",
+   "label": "BKYC Status"
+  },
+  {
+   "fieldname": "bkyc_reason",
+   "fieldtype": "Data",
+   "label": "BKYC Reason"
+  },
+  {
+   "fieldname": "kyc_status",
+   "fieldtype": "Data",
+   "label": "KYC Status"
+  },
+  {
+   "fieldname": "decision_month",
+   "fieldtype": "Data",
+   "label": "Decision Month"
+  },
+  {
+   "fieldname": "decline_descreption",
+   "fieldtype": "Data",
+   "label": "Decline Descreption"
+  },
+  {
+   "fieldname": "decline_type",
+   "fieldtype": "Data",
+   "label": "Decline Type"
+  },
+  {
+   "fieldname": "product_des",
+   "fieldtype": "Data",
+   "label": "Product Des"
+  },
+  {
+   "fieldname": "sm_name",
+   "fieldtype": "Data",
+   "label": "SM Name"
+  },
+  {
+   "fieldname": "uniqueduplicate",
+   "fieldtype": "Data",
+   "label": "Unique/Duplicate"
+  },
+  {
+   "fieldname": "kyc_successnr",
+   "fieldtype": "Data",
+   "label": "KYC Success/NR"
+  },
+  {
+   "fieldname": "card_type",
+   "fieldtype": "Data",
+   "label": "Card Type"
+  },
+  {
+   "fieldname": "creation_date_time",
+   "fieldtype": "Datetime",
+   "label": "Creation Date Time"
+  },
+  {
+   "fieldname": "card_activation_status",
+   "fieldtype": "Data",
+   "label": "Card Activation Status"
+  },
+  {
+   "fieldname": "application_no",
+   "fieldtype": "Data",
+   "label": "Application No"
+  },
+  {
+   "fieldname": "source_channel",
+   "fieldtype": "Data",
+   "label": "Source Channel"
+  },
+  {
+   "fieldname": "final_dap_submission_date",
+   "fieldtype": "Date",
+   "label": "Final DAP Submission Date"
+  },
+  {
+   "fieldname": "ip_address",
+   "fieldtype": "Data",
+   "label": "IP Address"
+  },
+  {
+   "fieldname": "merged_defect_codes",
+   "fieldtype": "Data",
+   "label": "Merged Defect Codes"
+  },
+  {
+   "fieldname": "kyc_completion_date",
+   "fieldtype": "Date",
+   "label": "KYC Completion date"
+  },
+  {
+   "fieldname": "source_type",
+   "fieldtype": "Data",
+   "label": "Source Type"
+  },
+  {
+   "fieldname": "sales_branch_code",
+   "fieldtype": "Data",
+   "label": "Sales Branch Code"
+  },
+  {
+   "fieldname": "sm_remark",
+   "fieldtype": "Data",
+   "label": "SM Remark"
+  },
+  {
+   "fieldname": "vkyc_status",
+   "fieldtype": "Data",
+   "label": "VKYC Status"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-23 01:13:35.498321",
+ "modified_by": "Administrator",
+ "module": "Cipl App",
+ "name": "adobe_dump",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

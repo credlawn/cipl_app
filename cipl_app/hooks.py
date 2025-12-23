@@ -4,6 +4,7 @@ app_publisher = "info@credlawn.com"
 app_description = "Credlawn CRM"
 app_email = "info@credlawn.com"
 app_license = "mit"
+app_color = "#0066cc"  # Professional blue for business app
 
 # Apps
 # ------------------
@@ -25,8 +26,8 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/cipl_app/css/cipl_app.css"
-# app_include_js = "/assets/cipl_app/js/cipl_app.js"
+app_include_css = "/assets/cipl_app/css/cipl_app.css"
+app_include_js = "/assets/cipl_app/js/excel_import_utils.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/cipl_app/css/cipl_app.css"
